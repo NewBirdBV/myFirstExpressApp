@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    h1= goodsName
+    p #{goodsId ? 'Without goods name, but got a id:' + goodsId : ''}
+    p= goodsDes
